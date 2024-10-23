@@ -15,7 +15,7 @@ useEffect(()=>{
   let inapp=segments[0] === '(app)'
   if(!isAuthenticated)
   { 
-   router.replace('signin')
+   router.replace('home')
   }
   else if (isAuthenticated && !inapp )
   {
